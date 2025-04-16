@@ -1,0 +1,50 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+public class Avion extends Vehiculo {
+    private String tipodeavion;
+    private String kilometraje;
+    private int capacidadpersonas;
+
+    public Avion() {
+    }
+
+    @Override
+    public void tanquear(double volumen) {
+        super.tanquear(volumen); 
+        System.out.println("el avion esta tanqueando"+volumen+ " litros ");
+    }
+
+    public String getTipodeavion() {
+        return tipodeavion;
+    }
+
+    public void setTipodeavion(String tipodeavion) {
+        this.tipodeavion = tipodeavion;
+    }
+
+    public String getKilometraje() {
+        return kilometraje;
+    }
+
+    public void setKilometraje(String kilometraje) {
+        this.kilometraje = kilometraje;
+    }
+
+    public int getCapacidadpersonas() {
+        return capacidadpersonas;
+    }
+
+    public void setCapacidadpersonas(int capacidadpersonas) {
+        this.capacidadpersonas = capacidadpersonas;
+    }
+    
+    
+    
+}
