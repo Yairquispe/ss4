@@ -1,0 +1,61 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+public class Automovil extends Vehiculo {
+    private String tipoAuto;
+    private double kilometraje;
+    private int capacidadPersonas;
+
+    public Automovil() {
+    }
+    
+    public void derrapar(){
+        System.out.println("el automovil Derrapa...");
+    }
+    
+    @Override
+    public void transportar(){
+        System.out.println("el automovil se esta transportando");
+    }    
+
+    @Override
+    public void tanquear(double volumen) {
+        super.tanquear(volumen); 
+        System.out.println("el vehiculo esta tanqueando"+volumen+"litros");
+    }
+
+    public String getTipoAuto() {
+        return tipoAuto;
+    }
+
+    public void setTipoAuto(String tipoAuto) {
+        this.tipoAuto = tipoAuto;
+    }
+
+    public double getKilometraje() {
+        return kilometraje;
+    }
+
+    public void setKilometraje(double kilometraje) {
+        this.kilometraje = kilometraje;
+    }
+
+    public int getCapacidadPersonas() {
+        return capacidadPersonas;
+    }
+
+    public void setCapacidadPersonas(int capacidadPersonas) {
+        this.capacidadPersonas = capacidadPersonas;
+    }
+    
+    
+    
+
+    
+}
