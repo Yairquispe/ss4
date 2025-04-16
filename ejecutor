@@ -1,0 +1,45 @@
+
+public class ejecutor {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        System.out.println("1era instancia del tipo de vehiculo: oVehiculo01");
+        Vehiculo oVehiculo01= new Vehiculo();
+        System.out.println("/n/n Atributos de vehiculo:");
+        System.out.println("placa:"+oVehiculo01.getPlaca());
+        System.out.println("serie:"+oVehiculo01.getSerie());
+        System.out.println("marca: "+oVehiculo01.getMarca());
+        System.out.println("modelo:"+oVehiculo01.getModelo());
+        
+        System.out.println("Actualizando los atributos");
+        
+        oVehiculo01.setPlaca("DWJFOF");
+        oVehiculo01.setSerie("KADNWOWFO");
+        oVehiculo01.setMarca("toyota");
+        oVehiculo01.setModelo("kiaaadaw");
+        
+        
+        
+        
+        
+        
+        
+        System.out.println("generando la instancia");
+        Automovil oAuto01 = new Automovil();
+        oAuto01.setPlaca("0qifq");
+        oAuto01.setModelo("oastwge");
+        oAuto01.setMarca("feeg");
+        
+        System.out.println("tipo de auto"+oAuto01.getTipoAuto());
+        System.out.println("ñilometraje"+oAuto01.getKilometraje());
+        System.out.println("placa"+oAuto01.getPlaca());
+        System.out.println("serie");
+        System.out.println("capacidad de personas "+oAuto01.getCapacidadPersonas());
+        System.out.println("marca"+oAuto01.getMarca());
+
+        
+    }
+    
+}
